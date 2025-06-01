@@ -21,7 +21,12 @@ const Navbar = () => {
     <nav className="bg-white shadow-lg fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center">
+            <img 
+              src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=40&h=40&fit=crop&crop=center" 
+              alt="Websoftech Logo" 
+              className="h-10 w-10 rounded-lg mr-3 animate-pulse"
+            />
             <Link to="/" className="text-2xl font-bold text-blue-600">
               Websoftech
             </Link>

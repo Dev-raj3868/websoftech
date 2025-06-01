@@ -5,42 +5,42 @@ import Layout from '../components/Layout';
 const Services = () => {
   const services = [
     {
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
       title: 'Cloud Solutions',
       description: 'Comprehensive cloud migration, management, and optimization services.',
       features: ['Cloud Migration', 'AWS/Azure/GCP', 'Hybrid Cloud', 'Cloud Security'],
       color: 'bg-blue-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
       title: 'Cybersecurity',
       description: 'Protect your business with enterprise-grade security solutions.',
       features: ['Security Assessment', 'Threat Detection', 'Data Protection', 'Compliance'],
       color: 'bg-red-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
       title: 'IT Infrastructure',
       description: 'Design, implement, and maintain robust IT infrastructure.',
       features: ['Network Setup', 'Server Management', 'Backup Solutions', 'Monitoring'],
       color: 'bg-green-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
       title: 'Digital Transformation',
       description: 'Transform your business processes with digital solutions.',
       features: ['Process Automation', 'Digital Strategy', 'Legacy Modernization', 'Integration'],
       color: 'bg-purple-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
       title: 'Data Analytics',
       description: 'Turn your data into actionable business insights.',
       features: ['Business Intelligence', 'Data Warehousing', 'Reporting', 'Predictive Analytics'],
       color: 'bg-orange-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
       title: 'IT Consulting',
       description: 'Strategic IT guidance to align technology with business goals.',
       features: ['Technology Strategy', 'Project Management', 'Vendor Management', 'Cost Optimization'],
@@ -53,8 +53,8 @@ const Services = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">Our Services</h1>
+          <p className="text-xl text-blue-100 max-w-3xl mx-auto animate-fade-in">
             Comprehensive IT solutions designed to drive your business forward in the digital age
           </p>
         </div>
@@ -65,18 +65,18 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 transform animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
                 <div className={`${service.color} h-2`}></div>
                 <div className="p-8">
-                  <div className="mb-6">
+                  <div className="mb-6 flex justify-center">
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-16 h-16 object-cover rounded-lg"
+                      className="w-32 h-32 object-cover rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
-                  <p className="text-gray-600 mb-6">{service.description}</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">{service.title}</h3>
+                  <p className="text-gray-600 mb-6 text-center">{service.description}</p>
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center text-gray-700">
@@ -109,8 +109,8 @@ const Services = () => {
               { step: '03', title: 'Implementation', description: 'Executing the solution with minimal business disruption' },
               { step: '04', title: 'Support', description: 'Ongoing maintenance and optimization support' }
             ].map((process, index) => (
-              <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 text-white text-xl font-bold rounded-full mb-4">
+              <div key={index} className="text-center hover:scale-105 transition-transform duration-200">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 text-white text-xl font-bold rounded-full mb-4 hover:bg-blue-700 transition-colors duration-200">
                   {process.step}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{process.title}</h3>
@@ -132,7 +132,7 @@ const Services = () => {
           </p>
           <a
             href="/contact"
-            className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 hover:bg-gray-100 font-medium rounded-lg transition-colors duration-200"
+            className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 hover:bg-gray-100 font-medium rounded-lg transition-colors duration-200 hover:scale-105 transform"
           >
             Get Quote
           </a>
