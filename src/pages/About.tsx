@@ -37,7 +37,7 @@ const About = () => {
     {
       name: 'Priya Sharma',
       position: 'CTO',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b913?w=300&h=300&fit=crop&crop=face',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop&crop=face',
       description: 'Expert in cloud architecture and cybersecurity'
     },
     {
@@ -49,7 +49,7 @@ const About = () => {
     {
       name: 'Neha Singh',
       position: 'Lead Developer',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face',
+      image: 'https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?w=300&h=300&fit=crop&crop=face',
       description: 'Full-stack developer with expertise in modern frameworks'
     }
   ];
@@ -93,8 +93,8 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                alt="Team collaboration"
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Indian team collaboration"
                 className="rounded-lg shadow-xl w-full h-auto"
               />
             </div>

@@ -68,8 +68,8 @@ const Index = () => {
             </div>
             <div className="relative">
               <img
-                src="/lovable-uploads/24b2f11a-eab9-446f-abce-3358ce996ad0.png"
-                alt="Modern IT Office"
+                src="/lovable-uploads/b654a72c-09c4-4310-9952-d7552e6f703a.png"
+                alt="Modern Development Workspace"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
             </div>
@@ -170,8 +170,8 @@ const Index = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                alt="Team collaboration"
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Indian team collaboration"
                 className="rounded-lg shadow-xl w-full h-auto"
               />
             </div>
