@@ -51,10 +51,10 @@ const Services = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-12">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">Our Services</h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto animate-fade-in">
+          <p className="text-xl text-blue-100 max-w-2xl mx-auto animate-fade-in">
             Comprehensive IT solutions designed to drive your business forward in the digital age
           </p>
         </div>
