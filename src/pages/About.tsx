@@ -31,25 +31,25 @@ const About = () => {
     {
       name: 'Rajesh Kumar',
       position: 'CEO & Founder',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/bc485d05-ed06-4c5f-a88a-1a8297137328.png',
       description: '15+ years in IT leadership and digital transformation'
     },
     {
       name: 'Priya Sharma',
       position: 'CTO',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/8edfd040-2860-4cf1-97a4-3624977b6bdf.png',
       description: 'Expert in cloud architecture and cybersecurity'
     },
     {
       name: 'Amit Patel',
       position: 'Head of Operations',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/5b6d4712-400d-4939-a04d-5737558e87d6.png',
       description: 'Specializes in project management and client relations'
     },
     {
       name: 'Neha Singh',
       position: 'Lead Developer',
-      image: 'https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/e0c07a5e-95ae-48f9-91c6-694e64611c6a.png',
       description: 'Full-stack developer with expertise in modern frameworks'
     }
   ];
@@ -62,7 +62,7 @@ const About = () => {
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About Websoftech</h1>
             <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-              Empowering businesses through innovative IT solutions since 2010
+              Empowering businesses through innovative IT solutions since 2024
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Founded in 2010, Websoftech began as a small team of passionate technologists 
+                  Founded in 2024, Websoftech began as a small team of passionate technologists 
                   with a vision to help businesses harness the power of technology. Over the years, 
                   we've grown into a trusted IT consultancy serving clients across various industries.
                 </p>
