@@ -5,42 +5,42 @@ import Layout from '../components/Layout';
 const Services = () => {
   const services = [
     {
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       title: 'Cloud Solutions',
       description: 'Comprehensive cloud migration, management, and optimization services.',
       features: ['Cloud Migration', 'AWS/Azure/GCP', 'Hybrid Cloud', 'Cloud Security'],
       color: 'bg-blue-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       title: 'Cybersecurity',
       description: 'Protect your business with enterprise-grade security solutions.',
       features: ['Security Assessment', 'Threat Detection', 'Data Protection', 'Compliance'],
       color: 'bg-red-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       title: 'IT Infrastructure',
       description: 'Design, implement, and maintain robust IT infrastructure.',
       features: ['Network Setup', 'Server Management', 'Backup Solutions', 'Monitoring'],
       color: 'bg-green-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       title: 'Digital Transformation',
       description: 'Transform your business processes with digital solutions.',
       features: ['Process Automation', 'Digital Strategy', 'Legacy Modernization', 'Integration'],
       color: 'bg-purple-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       title: 'Data Analytics',
       description: 'Turn your data into actionable business insights.',
       features: ['Business Intelligence', 'Data Warehousing', 'Reporting', 'Predictive Analytics'],
       color: 'bg-orange-500'
     },
     {
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       title: 'IT Consulting',
       description: 'Strategic IT guidance to align technology with business goals.',
       features: ['Technology Strategy', 'Project Management', 'Vendor Management', 'Cost Optimization'],
@@ -72,7 +72,7 @@ const Services = () => {
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-32 h-32 object-cover rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+                      className="w-64 h-64 object-cover rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
                     />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">{service.title}</h3>
