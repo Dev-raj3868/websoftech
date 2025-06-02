@@ -199,17 +199,17 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               {contactInfo.map((info, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow duration-200">
+                <div key={index} className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 hover:shadow-md transition-all duration-200 border border-blue-200">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
-                      <div className="bg-blue-600 text-white p-3 rounded-lg">
+                      <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-3 rounded-lg shadow-md">
                         <info.icon size={24} />
                       </div>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-gray-900 mb-1">{info.title}</h3>
-                      <p className="text-gray-700 font-medium mb-1">{info.details}</p>
-                      <p className="text-gray-600 text-sm">{info.subtitle}</p>
+                      <h3 className="text-lg font-semibold text-blue-900 mb-1">{info.title}</h3>
+                      <p className="text-blue-800 font-medium mb-1">{info.details}</p>
+                      <p className="text-blue-600 text-sm">{info.subtitle}</p>
                     </div>
                   </div>
                 </div>
@@ -219,30 +219,8 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Visit Our Office</h2>
-            <p className="text-lg text-gray-600">
-              Located in the heart of Mumbai, we're easily accessible and ready to meet with you.
-            </p>
-          </div>
-          
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gray-300 h-96 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin size={48} className="text-gray-500 mx-auto mb-4" />
-                <p className="text-gray-600">Interactive map would be integrated here</p>
-                <p className="text-sm text-gray-500">Mumbai, Maharashtra, India</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
@@ -270,8 +248,8 @@ const Contact = () => {
                 answer: 'Absolutely! We specialize in integrating new solutions with existing infrastructure.'
               }
             ].map((faq, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
+              <div key={index} className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-200 border border-blue-100">
+                <h3 className="text-lg font-semibold text-blue-900 mb-3">{faq.question}</h3>
                 <p className="text-gray-600">{faq.answer}</p>
               </div>
             ))}

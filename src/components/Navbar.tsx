@@ -22,8 +22,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
-            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-3 shadow-md">
-              <span className="text-blue-600 font-bold text-xl">W</span>
+            <div className="w-10 h-10 mr-3">
+              <img 
+                src="/lovable-uploads/6b9d2e18-7987-4bf0-8cc7-f4d4be0a8d18.png" 
+                alt="Websoftech Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <Link to="/" className="text-2xl font-bold text-white hover:text-blue-100 transition-colors duration-200">
               Websoftech
