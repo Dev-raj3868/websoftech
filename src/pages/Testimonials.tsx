@@ -9,7 +9,7 @@ const Testimonials = () => {
       name: 'Arjun Mehta',
       position: 'CEO, TechCorp Solutions',
       company: 'TechCorp Solutions',
-      image: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/c58fdf9c-39fa-4ad8-a331-5c21b6d9feb4.png',
       rating: 5,
       text: 'Websoftech transformed our entire IT infrastructure. Their cloud migration strategy reduced our costs by 40% while improving performance significantly. Highly recommended!'
     },
@@ -17,7 +17,7 @@ const Testimonials = () => {
       name: 'Priya Reddy',
       position: 'CTO, InnovateLabs',
       company: 'InnovateLabs',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/ca7711ff-364b-403b-bf30-de4fa2277196.png',
       rating: 5,
       text: 'The cybersecurity solutions provided by Websoftech have given us peace of mind. Their proactive approach to threat detection has prevented several potential breaches.'
     },
@@ -25,7 +25,7 @@ const Testimonials = () => {
       name: 'Rohit Sharma',
       position: 'IT Director, RetailPlus',
       company: 'RetailPlus',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/b63ef650-6564-413b-a398-c200ba39cda8.png',
       rating: 5,
       text: 'Outstanding support and expertise! Websoftech helped us modernize our legacy systems, resulting in improved efficiency and customer satisfaction.'
     },
@@ -33,7 +33,7 @@ const Testimonials = () => {
       name: 'Anjali Gupta',
       position: 'Founder, StartupHub',
       company: 'StartupHub',
-      image: 'https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/9ad4dc02-6b4c-45b4-b03e-1d095d08d81f.png',
       rating: 5,
       text: 'As a startup, we needed scalable IT solutions that could grow with us. Websoftech delivered exactly that with their flexible cloud infrastructure.'
     },
@@ -41,7 +41,7 @@ const Testimonials = () => {
       name: 'Vikram Singh',
       position: 'Operations Manager, ManufacturePro',
       company: 'ManufacturePro',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/cc46c863-526a-4f08-8448-7b0c1115131e.png',
       rating: 5,
       text: 'The digital transformation project led by Websoftech revolutionized our manufacturing processes. We saw a 35% increase in operational efficiency.'
     },
@@ -49,7 +49,7 @@ const Testimonials = () => {
       name: 'Sunita Patel',
       position: 'Head of IT, FinanceFirst',
       company: 'FinanceFirst',
-      image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=300&h=300&fit=crop&crop=face',
+      image: '/lovable-uploads/6f6c84d4-db4d-470f-ad7b-77d289b50b19.png',
       rating: 5,
       text: 'Websoftech\'s data analytics solutions have transformed how we make business decisions. The insights we now have are invaluable for strategic planning.'
     }
@@ -87,7 +87,7 @@ const Testimonials = () => {
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="w-32 h-32 rounded-full object-cover mr-4 shadow-lg"
+                    className="w-20 h-20 rounded-full object-cover mr-4 shadow-lg"
                   />
                   <div>
                     <h3 className="font-semibold text-gray-900">{testimonial.name}</h3>
